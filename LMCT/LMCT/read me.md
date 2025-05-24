@@ -6,8 +6,8 @@
 
 ## Module Information
 
-* ​**Version**​: Official version cnLMCT 10.6.8
-* ​**Author**​: Egg TurboWarp
+* ​**Version**​: Official version LMCT 6.5.8
+* ​**Author**​: Eggy TurboWarp
 * ​**QQ Email**​: codemao23@qq.com
 * ​**CodeMao Personal Center**​: [Personal Center](https://shequ.codemao.cn/user/1274549095)
 * ​**Bilibili**​: [Bilibili](https://space.bilibili.com/1402822998?spm_id_from=333.1007.0.0)
