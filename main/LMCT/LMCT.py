@@ -795,10 +795,10 @@ def safe_operation(func):
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
         try:
-            file_append('C:/lmct prefech/module log.log',f'[LMCT]:安全操作({func.__name__}),used time:{time.strftime("%Y-%m-%d %H:%M:%S")}\n')
+            file_append('C:/lmct prefech/module log.log',f'[LMCT]:safe_operation({func.__name__}),used time:{time.strftime("%Y-%m-%d %H:%M:%S")}\n')
             return func(*args, **kwargs)
         except Exception as e:
-            file_append('C:/lmct prefech/module log.log',f'[LMCT]:安全操作({func.__name__}),used time:{time.strftime("%Y-%m-%d %H:%M:%S")},result:操作失败\n')
-            logging.error(f"操作失败: {str(e)}")
+            file_append('C:/lmct prefech/module log.log',f'[LMCT]:safe_operation({func.__name__}),used time:{time.strftime("%Y-%m-%d %H:%M:%S")},result:control failed\n')
+            logging.error(f"control failed: {str(e)}")
             raise
     return wrapper
