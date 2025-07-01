@@ -20,7 +20,7 @@
 
 # LMCT author url, These urls is china country only(True?)
 
-|author|url|
+|         author          |                            url                              |
 |-------------------------|-------------------------------------------------------------|
 |damnTurboWarp            |[Codemao community](https://shequ.codemao.cn/user/1274549095)|
 |codemao23                |QQ mail:codemao23@qq.com                                     |
