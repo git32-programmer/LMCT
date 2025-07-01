@@ -21,11 +21,11 @@
 # LMCT author url, These urls is china country only(True?)
 
 |author|url|
-|--|--|
-|damnTurboWarp|[Codemao community](https://shequ.codemao.cn/user/1274549095)|
-|codemao23|QQ mail:codemao23@qq.com|
-|nsjcehbwueibgxcwue(steam)|mail:codemao23@qq.com|
-|git32-programmer|mail:github_2025@qq.com|
+|-------------------------|-------------------------------------------------------------|
+|damnTurboWarp            |[Codemao community](https://shequ.codemao.cn/user/1274549095)|
+|codemao23                |QQ mail:codemao23@qq.com                                     |
+|nsjcehbwueibgxcwue(steam)|mail:codemao23@qq.com                                        |
+|git32-programmer         |mail:github_2025@qq.com                                      |
 
 # LMCT document(comments)
 
