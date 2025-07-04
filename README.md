@@ -20,12 +20,12 @@
 
 # LMCT author url, These urls is china country only(True?)
 
-|author|url|
-|--|--|
-|damnTurboWarp|[Codemao community](https://shequ.codemao.cn/user/1274549095)|
-|codemao23|QQ mail:codemao23@qq.com|
-|nsjcehbwueibgxcwue(steam)|mail:codemao23@qq.com|
-|git32-programmer|mail:github_2025@qq.com|
+|author                   |url                                                          |                                                       
+|-------------------------|-------------------------------------------------------------|
+|damnTurboWarp            |[Codemao community](https://shequ.codemao.cn/user/1274549095)|
+|codemao23                |QQ mail:codemao23@qq.com                                     |
+|nsjcehbwueibgxcwue(steam)|mail:codemao23@qq.com                                        |
+|git32-programmer         |mail:github_2025@qq.com                                      |
 
 # LMCT document(comments)
 
@@ -152,3 +152,34 @@
 
 ```
 # I may publish this module on PyPI (but it's very low priority)
+
+# Update notice
+## Update content:
+### 1.add class branch to module
+### 2.add function to module, functions:
+#### 1.better string dispose(
+##### 1.text_to_unicode(text:str,sep)
+##### 2.unicode_to_text(unicode:str)
+##### 3.extract(text:str,mode:int)
+##### 4.format(text:str,mode:int)
+##### 5.similarity(text1:str,text2:str)
+##### 6.fuzzy_match(text:str,pattern, threshold:float=0.6)
+##### 7.search(text:str,pattern)
+##### 8.encrypt(text:str,mode:int)
+##### 9.frequency(text:str,mode:int)
+#### )
+#### 2.website operation(
+##### 1.fetch_webpage(url:str)
+##### 2.connect_test()
+##### 3.public_ip()
+#### )
+#### 3.system operation(
+##### 1.system_info()
+##### 2.cpu_usage()
+##### 3.memory_info()
+#### )
+#### 4.visualization(
+##### 1.plot_bar(data, title="histogram", xlabel="X", ylabel="Y")
+##### 2.plot_line(x_data, y_data, title="Line chart", xlabel="X", ylabel="Y")
+##### 3.plot_pie(data, title="Pie charts")
+#### )
