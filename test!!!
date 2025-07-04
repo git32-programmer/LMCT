@@ -1,3 +1,0 @@
-import main.cnLMCT
-
-cnLMCT.file_print("E:\github\LMCT\main\cnLMCT\cnLMCT.py")
