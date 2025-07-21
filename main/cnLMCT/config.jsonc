@@ -1,0 +1,52 @@
+// 可修改数据
+{
+    // 修改以后请修改注释
+    "module_info": {
+        "name": "LMCT (逻辑数学文件海龟)",
+        "version": "cnLMCT 16.4.87",
+        "author": "damnTurboWarp",
+        "author_note": "damnturbowarp是我的编程猫用户名",
+        "email": "codemao23@qq.com",
+        "creation_date": "2025-05-12",
+        "last_update": "2025-06-30 11:34am",
+        "description": "一个综合性的实用工具模块，提供逻辑运算、数学计算、文件系统操作、海龟图形等功能。"
+    },
+    // 解析json
+    "config": {
+        "log_dir": "~/.lmct",
+        "log_file": "module.log",
+        "max_log_size": 1048576,
+        "log_level": "INFO",
+        "prefetch_dir": "C:/lmct prefech",
+        "prefetch_log": "模块日志.log"
+    },
+    "variables": {
+        "i": {
+            "value": 0,
+            "type": "int",
+            "description": "全局计数器变量"
+        }
+    },
+    // 依赖模块
+    "dependencies": [
+        "time",
+        "os",
+        "math",
+        "turtle",
+        "shutil",
+        "re",
+        "typing",
+        "pathlib",
+        "dataclasses",
+        "subprocess",
+        "functools",
+        "logging",
+        "matplotlib",
+        "itertools"
+    ],
+    // 许可证
+    "license": {
+        "type": "自由使用和修改",
+        "note": "欢迎注明出处，但不强制要求。所有在编程猫平台和GitHub上的作品点赞和购买记录归原作者所有。"
+    }
+}
